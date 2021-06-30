@@ -1,0 +1,26 @@
+{
+  "name": "webcomponents-template",
+  "version": "1.0.0",
+  "description": "webcomponents template",
+  "main": "index.js",
+  "scripts": {
+    "build:prod": "webpack --mode production",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.12.5",
+    "html-loader": "^2.1.2",
+    "prettier": "^2.3.2",
+    "raw-loader": "^4.0.2",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0",
+    "ts-loader": "^9.2.3",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4",
+    "webpack": "^5.41.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
